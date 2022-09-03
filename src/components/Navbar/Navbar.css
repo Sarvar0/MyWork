@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600&family=Rubik:wght@300;400;500;600&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.light{
+  height:55px;
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  background-color:#0059ff;
+  z-index: 1;
+}
+.dark{
+  height:55px;
+  border-bottom: 1px solid thistle ;
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  color: black;
+  background-color:#313131;
+  z-index: 1;
+}
+
+ li , a , button {
+  font-family: 'Rubik', sans-serif;
+   font-weight: 500;
+   font-size: 16px;
+   color:white;
+   text-decoration: none;
+ }
+ .logo{
+  cursor: pointer;
+  justify-content: flex-start;
+ }
+ .nav_links{
+  list-style: none;
+  margin-top: 20px;
+ }
+ .nav_links li{
+  display: inline-block;
+  padding: 0px 20px;
+ }
+ .nav_links li a {
+    transition: all 0.3s ease 0s;
+ }
+ .nav_links li a:hover{
+  color: #000000;
+}
+.button{
+  padding: 9px 25px;
+  border:1px solid rgb(0, 0, 0);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.7s ease 0s;
+  color: rgb(43, 43, 43);
+}
+.button:hover{
+  color: rgb(0, 0, 0); 
+  box-shadow: 0 0 5px 1px white;
+}
+.dark_button{
+  padding: 9px 25px;
+  border:1px solid blue;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.7s ease 0s;
+  color: rgb(0, 0, 0);
+}
+.dark_button:hover{
+  color: rgb(0, 0, 0); 
+  box-shadow: 0 0 5px 1px white;
+}
